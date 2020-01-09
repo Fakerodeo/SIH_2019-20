@@ -1,0 +1,8 @@
+{% extends 'admin/master.html' %} {% block body %}
+
+<form action="/index" method="POST">
+  <p>Message: <input type="text" name="message" /></p>
+  <p><input type="submit" value="Send" /></p>
+</form>
+
+{% endblock %}
